@@ -1,0 +1,342 @@
+{
+  "baselines": [],
+  "fuzzy": [
+    {
+      "bytes_per_item": 5607.12,
+      "candidate_precision": 0.5909,
+      "candidate_recall": 1.0,
+      "candidates": 44,
+      "counters": {
+        "candidate_sketches": 44,
+        "client_band_keys": 216,
+        "confirmations": 7,
+        "confirmed_sketches": 26,
+        "exact_sketches": 24,
+        "matched_band_keys": 134,
+        "pending_probes": 37,
+        "server_band_keys": 212
+      },
+      "n": 48,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 221250,
+        "psi2": 47170,
+        "stage3": 698
+      },
+      "phases_s": {
+        "lsh": 0.1029,
+        "other": 0.0,
+        "psi1": 5.8251,
+        "psi2": 1.2901,
+        "stage3": 0.0004
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 2,
+      "recall": 1.0,
+      "reported_matches": 26,
+      "total_bytes": 269142,
+      "true_matches": 26,
+      "wall_time_s": 7.1717
+    },
+    {
+      "bytes_per_item": 5608.46,
+      "candidate_precision": 0.6136,
+      "candidate_recall": 1.0,
+      "candidates": 44,
+      "counters": {
+        "candidate_sketches": 44,
+        "client_band_keys": 216,
+        "confirmations": 9,
+        "confirmed_sketches": 27,
+        "exact_sketches": 24,
+        "matched_band_keys": 134,
+        "pending_probes": 37,
+        "server_band_keys": 212
+      },
+      "n": 48,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 221250,
+        "psi2": 47170,
+        "stage3": 762
+      },
+      "phases_s": {
+        "lsh": 0.0701,
+        "other": 0.0,
+        "psi1": 5.4584,
+        "psi2": 1.2629,
+        "stage3": 0.0007
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 4,
+      "recall": 1.0,
+      "reported_matches": 27,
+      "total_bytes": 269206,
+      "true_matches": 27,
+      "wall_time_s": 6.7738
+    },
+    {
+      "bytes_per_item": 5612.46,
+      "candidate_precision": 0.75,
+      "candidate_recall": 1.0,
+      "candidates": 44,
+      "counters": {
+        "candidate_sketches": 44,
+        "client_band_keys": 216,
+        "confirmations": 15,
+        "confirmed_sketches": 33,
+        "exact_sketches": 24,
+        "matched_band_keys": 134,
+        "pending_probes": 37,
+        "server_band_keys": 212
+      },
+      "n": 48,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 221250,
+        "psi2": 47170,
+        "stage3": 954
+      },
+      "phases_s": {
+        "lsh": 0.0796,
+        "other": 0.0,
+        "psi1": 5.7167,
+        "psi2": 1.3054,
+        "stage3": 0.0005
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 6,
+      "recall": 1.0,
+      "reported_matches": 33,
+      "total_bytes": 269398,
+      "true_matches": 33,
+      "wall_time_s": 7.0758
+    },
+    {
+      "bytes_per_item": 5615.79,
+      "candidate_precision": 0.8409,
+      "candidate_recall": 0.9737,
+      "candidates": 44,
+      "counters": {
+        "candidate_sketches": 44,
+        "client_band_keys": 216,
+        "confirmations": 20,
+        "confirmed_sketches": 36,
+        "exact_sketches": 24,
+        "matched_band_keys": 134,
+        "pending_probes": 37,
+        "server_band_keys": 212
+      },
+      "n": 48,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 221250,
+        "psi2": 47170,
+        "stage3": 1114
+      },
+      "phases_s": {
+        "lsh": 0.113,
+        "other": 0.0,
+        "psi1": 6.0984,
+        "psi2": 1.5518,
+        "stage3": 0.0007
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 8,
+      "recall": 0.9474,
+      "reported_matches": 36,
+      "total_bytes": 269558,
+      "true_matches": 38,
+      "wall_time_s": 7.7143
+    }
+  ],
+  "meta": {
+    "element_bytes": 256,
+    "exponent_bits": 256,
+    "generated_utc": "2026-11-20T13:24:23Z",
+    "group_bits": 2048,
+    "lsh": {
+      "analytic_recall": {
+        "0": 1.0,
+        "1": 1.0,
+        "2": 1.0,
+        "4": 1.0,
+        "6": 0.8955,
+        "8": 0.6834
+      },
+      "band_bits": 12,
+      "bands": 5
+    },
+    "machine": {
+      "cpu_count": 18,
+      "numpy": "2.5.5",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+      "python": "3.13.14"
+    },
+    "seed": 20241114,
+    "total_wall_s": 133.904
+  },
+  "scaling": [
+    {
+      "baselines": {
+        "hash-psi": {
+          "matches": 13,
+          "recall_at_radius": 0.7222,
+          "total_bytes": 2064,
+          "wall_time_s": 0.000269
+        },
+        "plaintext": {
+          "matches": 13,
+          "recall_at_radius": 0.7222,
+          "total_bytes": 4315,
+          "wall_time_s": 0.000141
+        }
+      },
+      "bytes_per_item": 5346.22,
+      "candidate_precision": 0.36,
+      "candidate_recall": 1.0,
+      "candidates": 50,
+      "counters": {
+        "candidate_sketches": 50,
+        "client_band_keys": 278,
+        "confirmations": 12,
+        "confirmed_sketches": 18,
+        "exact_sketches": 13,
+        "matched_band_keys": 105,
+        "pending_probes": 71,
+        "server_band_keys": 275
+      },
+      "n": 64,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 284994,
+        "psi2": 55874,
+        "stage3": 1266
+      },
+      "phases_s": {
+        "lsh": 0.1264,
+        "other": 0.0,
+        "psi1": 7.9489,
+        "psi2": 1.7233,
+        "stage3": 0.0006
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 4,
+      "recall": 1.0,
+      "reported_matches": 18,
+      "total_bytes": 342158,
+      "true_matches": 18,
+      "wall_time_s": 9.7495
+    },
+    {
+      "baselines": {
+        "hash-psi": {
+          "matches": 52,
+          "recall_at_radius": 0.8125,
+          "total_bytes": 8232,
+          "wall_time_s": 0.001719
+        },
+        "plaintext": {
+          "matches": 52,
+          "recall_at_radius": 0.8125,
+          "total_bytes": 17072,
+          "wall_time_s": 0.00027
+        }
+      },
+      "bytes_per_item": 4603.29,
+      "candidate_precision": 0.2735,
+      "candidate_recall": 1.0,
+      "candidates": 234,
+      "counters": {
+        "candidate_sketches": 234,
+        "client_band_keys": 907,
+        "confirmations": 29,
+        "confirmed_sketches": 64,
+        "exact_sketches": 52,
+        "matched_band_keys": 407,
+        "pending_probes": 468,
+        "server_band_keys": 890
+      },
+      "n": 256,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 925506,
+        "psi2": 246338,
+        "stage3": 6574
+      },
+      "phases_s": {
+        "lsh": 0.5441,
+        "other": 0.0,
+        "psi1": 26.5528,
+        "psi2": 7.6355,
+        "stage3": 0.0065
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 4,
+      "recall": 1.0,
+      "reported_matches": 64,
+      "total_bytes": 1178442,
+      "true_matches": 64,
+      "wall_time_s": 34.4806
+    },
+    {
+      "baselines": {
+        "hash-psi": {
+          "matches": 106,
+          "recall_at_radius": 0.7518,
+          "total_bytes": 16456,
+          "wall_time_s": 0.003159
+        },
+        "plaintext": {
+          "matches": 106,
+          "recall_at_radius": 0.7518,
+          "total_bytes": 34391,
+          "wall_time_s": 0.000374
+        }
+      },
+      "bytes_per_item": 4023.17,
+      "candidate_precision": 0.2962,
+      "candidate_recall": 1.0,
+      "candidates": 476,
+      "counters": {
+        "candidate_sketches": 476,
+        "client_band_keys": 1520,
+        "confirmations": 86,
+        "confirmed_sketches": 141,
+        "exact_sketches": 106,
+        "matched_band_keys": 764,
+        "pending_probes": 1149,
+        "server_band_keys": 1473
+      },
+      "n": 512,
+      "phase_bytes": {
+        "lsh": 0,
+        "psi1": 1545538,
+        "psi2": 497730,
+        "stage3": 16570
+      },
+      "phases_s": {
+        "lsh": 1.4515,
+        "other": 0.0,
+        "psi1": 44.9398,
+        "psi2": 13.8948,
+        "stage3": 0.008
+      },
+      "precision": 1.0,
+      "proof_bytes": 1056,
+      "radius": 4,
+      "recall": 1.0,
+      "reported_matches": 141,
+      "total_bytes": 2059862,
+      "true_matches": 141,
+      "wall_time_s": 59.5873
+    }
+  ]
+}
