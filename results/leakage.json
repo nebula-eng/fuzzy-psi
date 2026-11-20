@@ -1,0 +1,23 @@
+{
+  "dictionary": {
+    "candidates": 500,
+    "median_us_per_candidate": 354.238,
+    "total_ms": 177.119
+  },
+  "enumeration": {
+    "max_ms": 63.672,
+    "median_ms": 52.999,
+    "min_ms": 43.354,
+    "note": "one table covers a whole submission; lookup per item is O(1)",
+    "repeat": 20,
+    "table_entries": 20480
+  },
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.14"
+  },
+  "params": {
+    "band_bits": 12,
+    "bands": 5
+  }
+}
